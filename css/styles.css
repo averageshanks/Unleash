@@ -1,0 +1,159 @@
+
+body{
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+h1, h2, h3{
+    font-family: "Montserrat-Black";
+    
+}
+
+p{
+    font-family: 'Ubuntu', sans-serif;
+    color: #8f8f8f;
+}
+
+/* Headings */
+
+.top-heading{
+    text-align: left;
+}
+
+.first-head{
+    font-size: 4.6rem;
+    line-height: 1.5;
+}
+.sec-head{
+    font-size: 300%;
+    line-height: 1.5;
+    font-weight: bold;
+}
+.third-head{
+    font-weight: bold;
+}
+
+/* Background */
+
+.background{
+    background-color: #C3A9FF;
+    color:white;
+}
+
+/* Navigation Bar */
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+.button{
+    margin: 5% 3% 5% 0;
+}
+
+.image{
+    width: 60%;
+    transform: rotate(40deg);
+    position: absolute;
+    height: auto;
+    width: auto;
+    top: 15%;
+    right: 15%;
+    /* z-index: 0; */
+}
+
+/* features */
+
+#features{
+    background-color: white;
+    /* margin-top: 0; */
+    padding: 10% 15%;
+    position: relative;
+    /* z-index: 1; */
+}
+.feat{
+    
+    padding: 5%;
+}
+
+.icon{
+    color: #cc9966;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #F1C62A;
+}
+
+.dog-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px
+}
+
+#press{
+    padding-bottom: 5%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+    
+}
+
+
+.carousel-item{
+    padding: 5% 15%;
+}
+
+/* pricing */
+
+.pricing-col{
+    padding: 3% 2%;
+}
+
+
+#cta{
+    padding: 5% 15% 2%;
+}
+.cta-heading{
+    font-family: "Montserrat-Black";
+    font-size: 3rem;
+    line-height: 1.25;
+}
+
+#footer{
+    padding: 2% 15%;      
+}
+
+.foot-icons{
+    margin: 10px 20px;
+}
+
+
+@media (max-width: 1176px) {
+    
+    .image{
+        position: static;
+        transform: rotate(0deg);
+    }
+    /* .background .test-text{
+        font-size: 257.17%;
+    }  */
+    .background .car{
+        position: relative;
+        height: 670px;
+    }
+} 
